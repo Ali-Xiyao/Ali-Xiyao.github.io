@@ -1,0 +1,22 @@
+index.html
+  s_335b32da660fda::t_d9b86d7e9187f1 84,95,106-109,111-112,125,141
+custom.css
+  s_335b32da660fda::t_d9b86d7e9187f1 91-94,151-154,184-188
+  s_335b32da660fda::t_8edd51006a7517 189
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "06247d355e1e490644afe6944635f3e7975434b1",
+  "prompts": {},
+  "sessions": {
+    "s_335b32da660fda": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0666f-0fa3-7420-87f2-36859710f6b6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Ali-Xiyao <aliwang0126@gmail.com>"
+    }
+  }
+}

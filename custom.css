@@ -148,13 +148,13 @@
 }
 
 .paper-visual-cell {
-  width: 30%;
+  width: 40%;
   padding: 20px;
   vertical-align: middle;
 }
 
 .paper-copy-cell {
-  width: 70%;
+  width: 60%;
   padding: 20px;
   vertical-align: middle;
   line-height: 1.45;
@@ -167,7 +167,7 @@
 }
 
 .paper-visual {
-  width: 190px;
+  width: 100%;
   max-width: 100%;
   height: auto;
 }

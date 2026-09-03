@@ -55,6 +55,20 @@
   background: linear-gradient(to right, transparent, #ccc 20%, #ccc 80%, transparent);
 }
 
+.news-table {
+  width: 96%;
+  max-width: 768px;
+  border: 0;
+  border-spacing: 0;
+  border-collapse: separate;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.news-cell {
+  padding: 0;
+}
+
 .publications-table {
   border-spacing: 0 16px;
 }

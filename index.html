@@ -1,144 +1,171 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Xiyao Wang - medical AI researcher working on trustworthy multimodal learning and deployable medical vision models.">
+  <meta name="description" content="Xiyao Wang — medical AI, multimodal learning, and deployable medical vision models.">
   <meta name="author" content="Xiyao Wang">
-  <meta name="theme-color" content="#f7f5ef">
-  <meta property="og:title" content="Xiyao Wang">
-  <meta property="og:description" content="Medical AI, trustworthy multimodal learning, and deployable medical vision models.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://ali-xiyao.github.io/">
-  <meta property="og:image" content="https://ali-xiyao.github.io/assets/images/profile.jpg">
-  <title>Xiyao Wang</title>
+  <title>Xiyao Wang | 王玺尧</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" href="styles.css">
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Xiyao Wang",
-    "alternateName": "王玺尧",
-    "url": "https://ali-xiyao.github.io/",
-    "image": "https://ali-xiyao.github.io/assets/images/profile.jpg",
-    "affiliation": {
-      "@type": "CollegeOrUniversity",
-      "name": "Shanghai University of Engineering Science"
-    },
-    "sameAs": ["https://scholar.google.com/citations?user=bXssY-wAAAAJ"],
-    "knowsAbout": ["Medical Artificial Intelligence", "Multimodal Learning", "Medical Computer Vision"]
-  }
-  </script>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="custom.css">
+  <style>
+    body, * { cursor: url('images/icon/cursor.png'), auto; }
+    a, a *, button { cursor: url('images/icon/cursor-pointer.png'), pointer !important; }
+  </style>
 </head>
+
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <nav class="section-drip-nav" aria-label="Page sections">
+    <a href="#about"><span>About</span></a>
+    <a href="#publications"><span>Publications</span></a>
+  </nav>
 
-  <header class="site-header">
-    <nav class="nav shell" aria-label="Primary navigation">
-      <a class="wordmark" href="#about" aria-label="Xiyao Wang, home">
-        <span class="wordmark-dot" aria-hidden="true"></span>
-        Xiyao Wang
-      </a>
-      <div class="nav-links">
-        <a href="#publications">Publications</a>
-        <a href="https://scholar.google.com/citations?user=bXssY-wAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a>
-      </div>
-    </nav>
-  </header>
+  <main>
+    <table id="about" class="page-section page-table"><tbody>
+      <tr>
+        <td class="page-cell">
+          <table class="about-table"><tbody>
+            <tr>
+              <td class="about-copy">
+                <p class="name-line"><name>Xiyao Wang &nbsp;|&nbsp; 王玺尧</name></p>
 
-  <main id="main">
-    <section class="hero shell" id="about">
-      <div class="hero-copy">
-        <p class="eyebrow">Medical Artificial Intelligence</p>
-        <h1>Xiyao Wang <small>王玺尧</small></h1>
-        <p class="lead">
-          I am an undergraduate student in Computer Science and Technology at
-          <a href="https://www.sues.edu.cn/" target="_blank" rel="noreferrer">Shanghai University of Engineering Science</a>.
-        </p>
-        <p class="statement">
-          My research explores trustworthy multimodal learning and efficient medical vision models, with an emphasis on evidence, interpretability, and practical deployment.
-        </p>
-        <div class="contact-row" aria-label="Academic profile link">
-          <a class="link-button" href="https://scholar.google.com/citations?user=bXssY-wAAAAJ&hl=en" target="_blank" rel="noreferrer">
-            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 2 9l10 6 10-6-10-6Z"/><path d="M5 11.2v5.1c0 1.2 3.1 3.2 7 3.2s7-2 7-3.2v-5.1"/></svg>
-            <span>Google Scholar</span>
-          </a>
-        </div>
-      </div>
+                <p>
+                  I am an undergraduate student in Computer Science and Technology at
+                  <a href="https://www.sues.edu.cn/" target="_blank" rel="noreferrer">Shanghai University of Engineering Science</a>.
+                </p>
 
-      <aside class="profile-card" aria-label="Publication summary">
-        <div class="portrait-wrap">
-          <img src="assets/images/profile.jpg" alt="Illustrated profile avatar used by Xiyao Wang" width="420" height="420">
-          <span class="availability"><i></i> Two publications</span>
-        </div>
-        <dl class="quick-facts">
-          <div><dt>Year</dt><dd>2026</dd></div>
-          <div><dt>Field</dt><dd>Medical artificial intelligence</dd></div>
-          <div><dt>Topics</dt><dd>Multimodal learning · Medical vision</dd></div>
-        </dl>
-      </aside>
-    </section>
+                <p>
+                  My research focuses on trustworthy multimodal learning and efficient medical vision models, with an emphasis on interpretable evidence and practical deployment.
+                </p>
 
-    <section class="section shell" id="publications">
-      <div class="section-heading">
-        <p class="eyebrow">Google Scholar</p>
-        <h2>Selected publications</h2>
-        <p>Two works on interpretable multimodal reasoning and efficient representation learning for medical imaging.</p>
-      </div>
+                <div class="soft-divider" aria-hidden="true"></div>
 
-      <div class="project-list">
-        <article class="project-card">
-          <div class="project-visual visual-emr" aria-hidden="true">
-            <span class="visual-kicker">EVIDENCE-GROUNDED</span>
-            <strong>EMR<sup>2</sup>A</strong>
-            <span class="visual-line"></span>
-            <span class="visual-caption">Retrieve · Audit · Defer</span>
-          </div>
-          <div class="project-copy">
-            <div class="project-meta"><span>Journal article</span><span>2026</span></div>
-            <h3>EMR²A</h3>
-            <p class="project-title">Evidence-Grounded Multimodal Retrieval with Reasoning Audit for Interpretable Pneumonia Subtyping</p>
-            <p class="authors"><strong>Xiyao Wang</strong>, Liang Liu, Lu Gan, Yang Dai, Miao Zhu, Xihe Qiu, and Leilei Xu</p>
-            <p class="venue">Biomedical Signal Processing and Control, vol. 127, 111011, 2026.</p>
-            <p>The paper presents an interpretable patient-level framework that jointly encodes chest CT images and structured clinical attributes. It retrieves similar cases for transparent prediction and adds a reasoning-based audit that checks whether the evidence supports the result.</p>
-            <div class="paper-links">
-              <a class="text-link" href="https://doi.org/10.1016/j.bspc.2026.111011" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">↗</span></a>
-              <a class="text-link" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bXssY-wAAAAJ&citation_for_view=bXssY-wAAAAJ:9yKSN-GCB0IC" target="_blank" rel="noreferrer">Scholar record <span aria-hidden="true">↗</span></a>
-            </div>
-          </div>
-        </article>
+                <p class="contact-links">
+                  <span class="contact-line">
+                    <a href="https://scholar.google.com/citations?user=bXssY-wAAAAJ&amp;hl=en" target="_blank" rel="noreferrer" title="Google Scholar profile">
+                      <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 3 1.5 9 12 15 22.5 9 12 3Z"></path>
+                        <path d="M5 12.1v4.2c0 1.2 3.1 3.2 7 3.2s7-2 7-3.2v-4.2l-7 4-7-4Z"></path>
+                      </svg>
+                      Google Scholar
+                    </a>
+                  </span>
+                </p>
+              </td>
 
-        <article class="project-card">
-          <div class="project-visual visual-vivid" aria-hidden="true">
-            <span class="visual-kicker">STRUCTURED PRETRAINING</span>
-            <strong>VIVID-Med</strong>
-            <span class="visual-line"></span>
-            <span class="visual-caption">Teach · Transfer · Deploy</span>
-          </div>
-          <div class="project-copy">
-            <div class="project-meta"><span>arXiv preprint</span><span>2026</span></div>
-            <h3>VIVID-Med</h3>
-            <p class="project-title">LLM-Supervised Structured Pretraining for Deployable Medical ViTs</p>
-            <p class="authors"><strong>Xiyao Wang</strong>, Xiaoyu Tan, Yang Dai, Yuxuan Fu, Shuo Li, and Xihe Qiu</p>
-            <p class="venue">arXiv:2603.09109, 2026.</p>
-            <p>The paper uses a frozen language model as a structured semantic teacher for medical vision transformers. Clinical findings become verifiable field-state targets during pretraining; the language model is then removed, leaving a lightweight ViT backbone for deployment.</p>
-            <div class="paper-links">
-              <a class="text-link" href="https://arxiv.org/abs/2603.09109" target="_blank" rel="noreferrer">Paper <span aria-hidden="true">↗</span></a>
-              <a class="text-link" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=bXssY-wAAAAJ&citation_for_view=bXssY-wAAAAJ:2osOgNQ5qMEC" target="_blank" rel="noreferrer">Scholar record <span aria-hidden="true">↗</span></a>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
+              <td class="about-portrait">
+                <img class="profile-portrait" src="assets/images/profile.jpg" alt="Profile illustration for Xiyao Wang">
+              </td>
+            </tr>
+          </tbody></table>
+
+          <table id="publications" class="publications-table page-section"><tbody>
+            <tr class="section-intro">
+              <td colspan="2">
+                <heading>Publications</heading>
+                <p>Two publications listed on my <a href="https://scholar.google.com/citations?user=bXssY-wAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar</a> profile.</p>
+
+                <div class="tag-filter" id="tagFilter" aria-label="Filter publications">
+                  <button class="tag-btn active" type="button" data-tag="all">All <span class="tag-count">2</span></button>
+                  <button class="tag-btn" type="button" data-tag="multimodal">Multimodal <span class="tag-count">2</span></button>
+                  <button class="tag-btn" type="button" data-tag="medical-vision">Medical Vision <span class="tag-count">1</span></button>
+                </div>
+              </td>
+            </tr>
+
+            <tr class="paper-row" data-tags="multimodal">
+              <td class="paper-visual-cell">
+                <div class="paper-visual">
+                  <img src="images/paper/emr2a.png" alt="Overview of the EMR2A evidence-grounded retrieval and audit framework" loading="lazy">
+                </div>
+              </td>
+              <td class="paper-copy-cell">
+                <a href="https://doi.org/10.1016/j.bspc.2026.111011" target="_blank" rel="noreferrer">
+                  <papertitle>EMR2A: Evidence-Grounded Multimodal Retrieval with Reasoning Audit for Interpretable Pneumonia Subtyping</papertitle>
+                </a>
+                <br>
+                <span><strong>Xiyao Wang</strong></span>,
+                <span>Liang Liu</span>,
+                <span>Lu Gan</span>,
+                <span>Yang Dai</span>,
+                <span>Miao Zhu</span>,
+                <span>Xihe Qiu</span>,
+                <span>Leilei Xu</span>
+                <br>
+                <a href="https://doi.org/10.1016/j.bspc.2026.111011" target="_blank" rel="noreferrer">Paper</a>
+                &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=bXssY-wAAAAJ&amp;citation_for_view=bXssY-wAAAAJ:9yKSN-GCB0IC" target="_blank" rel="noreferrer">Scholar</a>
+                <br>
+                <span class="venue"><em><strong>Biomedical Signal Processing and Control, 127:111011, 2026</strong></em></span>
+                <p>
+                  A patient-level framework that combines chest CT images with structured clinical attributes, retrieves comparable cases for transparent prediction, and audits whether the retrieved evidence supports the final subtype.
+                </p>
+              </td>
+            </tr>
+
+            <tr class="paper-row" data-tags="multimodal,medical-vision">
+              <td class="paper-visual-cell">
+                <div class="paper-visual">
+                  <img src="images/paper/vivid-med.png" alt="Overview of the VIVID-Med structured pretraining framework" loading="lazy">
+                </div>
+              </td>
+              <td class="paper-copy-cell">
+                <a href="https://arxiv.org/abs/2603.09109" target="_blank" rel="noreferrer">
+                  <papertitle>VIVID-Med: LLM-Supervised Structured Pretraining for Deployable Medical ViTs</papertitle>
+                </a>
+                <br>
+                <span><strong>Xiyao Wang</strong></span>,
+                <span>Xiaoyu Tan</span>,
+                <span>Yang Dai</span>,
+                <span>Yuxuan Fu</span>,
+                <span>Shuo Li</span>,
+                <span>Xihe Qiu</span>
+                <br>
+                <a href="https://arxiv.org/abs/2603.09109" target="_blank" rel="noreferrer">Paper</a>
+                &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=bXssY-wAAAAJ&amp;citation_for_view=bXssY-wAAAAJ:2osOgNQ5qMEC" target="_blank" rel="noreferrer">Scholar</a>
+                <br>
+                <span class="venue"><em><strong>arXiv:2603.09109, 2026</strong></em></span>
+                <p>
+                  A structured pretraining strategy in which a frozen language model teaches clinically meaningful field states to a vision transformer. The language model is removed after pretraining, leaving a lightweight ViT for deployment.
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+        </td>
+      </tr>
+    </tbody></table>
   </main>
 
-  <footer class="site-footer compact-footer">
-    <div class="shell footer-inner">
-      <p>© <span id="year">2026</span> Xiyao Wang</p>
-      <p>Inspired by <a href="https://github.com/w-r-s/academic-homepage-template" target="_blank" rel="noreferrer">academic-homepage-template</a>.</p>
+  <section class="mountain-footer" aria-label="Footer landscape">
+    <div class="mountain-stage">
+      <picture>
+        <source type="image/webp" srcset="images/experience/background-960.webp 960w, images/experience/background-1440.webp 1440w, images/experience/background-1920.webp 1920w" sizes="100vw">
+        <img class="mountain-img" src="images/experience/background.jpeg" alt="Snowy mountain landscape" loading="lazy" decoding="async">
+      </picture>
+      <div class="mountain-fallback"></div>
+      <div class="mountain-content">
+        <h2>Keep Exploring</h2>
+        <p class="mountain-sub">Do what matters, even when it's hard.</p>
+        <a href="https://scholar.google.com/citations?user=bXssY-wAAAAJ&amp;hl=en" target="_blank" rel="noreferrer" class="mountain-cta">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
+          <span>View Publications</span>
+        </a>
+        <p class="mountain-footnote">
+          <span>Xiyao Wang | 王玺尧</span>
+          <span class="mountain-updated">Last updated: September 3, 2026.</span>
+          <span class="mountain-template">Design adapted from <a href="https://github.com/w-r-s/academic-homepage-template" target="_blank" rel="noreferrer">academic-homepage-template</a>.</span>
+        </p>
+      </div>
     </div>
-  </footer>
+  </section>
+
+  <button id="backToTop" type="button" title="Back to top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
 
   <script src="script.js"></script>
 </body>

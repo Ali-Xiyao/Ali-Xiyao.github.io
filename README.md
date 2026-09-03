@@ -1,15 +1,17 @@
-# Xiyao Wang - Personal Homepage
+# Xiyao Wang — Academic Homepage
 
-Source for [ali-xiyao.github.io](https://ali-xiyao.github.io/), a lightweight static academic homepage.
+Personal academic homepage for Xiyao Wang, focused on two publications listed on Google Scholar.
+
+The layout and visual language closely adapt the open-source [academic-homepage-template](https://github.com/w-r-s/academic-homepage-template): an 800px academic profile, orange-gold accents, publication rows, and the mountain landscape footer.
 
 ## Local preview
 
 ```bash
-python3 -m http.server 8080 --bind 127.0.0.1
+python3 -m http.server 8000
 ```
 
-Then open <http://127.0.0.1:8080>.
+Then open `http://localhost:8000`.
 
-## Acknowledgment
+## Publish with GitHub Pages
 
-The information architecture was inspired by [w-r-s/academic-homepage-template](https://github.com/w-r-s/academic-homepage-template). The implementation and visual system in this repository are original.
+Push these files to the repository used for the personal GitHub Pages site. In the repository settings, choose **Pages → Deploy from a branch → main / root**.

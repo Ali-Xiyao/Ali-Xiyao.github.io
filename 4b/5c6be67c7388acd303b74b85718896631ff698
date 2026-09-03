@@ -1,0 +1,19 @@
+custom.css
+  s_335b32da660fda::t_874f593b9533a7 158,164,258
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "4b5c6be67c7388acd303b74b85718896631ff698",
+  "prompts": {},
+  "sessions": {
+    "s_335b32da660fda": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0666f-0fa3-7420-87f2-36859710f6b6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Ali-Xiyao <aliwang0126@gmail.com>"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-# Xiyao (Ali) Wang - Personal Homepage
+# Xiyao Wang - Personal Homepage
 
 Source for [ali-xiyao.github.io](https://ali-xiyao.github.io/), a lightweight static academic homepage.
 

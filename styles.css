@@ -471,6 +471,18 @@ a {
     linear-gradient(145deg, #273245, #111620);
 }
 
+.visual-vivid {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(145deg, #31415a, #151d2b);
+  background-size: 28px 28px, 28px 28px, auto;
+}
+
+.visual-vivid strong {
+  font-size: clamp(31px, 4vw, 50px);
+}
+
 .visual-sight strong {
   margin-top: 18px;
   font-size: 36px;
@@ -539,6 +551,28 @@ a {
 .project-copy > p:not(.project-title) {
   margin: 0 0 16px;
   color: var(--muted);
+}
+
+.project-copy .authors {
+  margin-bottom: 4px !important;
+  color: var(--ink) !important;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.project-copy .venue {
+  margin-bottom: 15px !important;
+  color: var(--accent-dark) !important;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 650;
+}
+
+.paper-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 4px;
 }
 
 .text-link {
@@ -690,6 +724,10 @@ a {
   color: #b7b8b1;
   background: var(--ink);
   font-size: 12px;
+}
+
+.compact-footer {
+  margin-top: 0;
 }
 
 .footer-inner {

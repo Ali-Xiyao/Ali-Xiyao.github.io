@@ -168,10 +168,6 @@
   color: #a92c20;
 }
 
-.mountain-fallback {
-  display: none;
-}
-
 @media (max-width: 680px) {
   .page-table,
   .page-table > tbody,

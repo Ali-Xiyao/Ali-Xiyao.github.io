@@ -39,8 +39,8 @@
 
 .profile-portrait {
   display: block;
-  width: 85%;
-  max-width: 85%;
+  width: 72%;
+  max-width: 210px;
   aspect-ratio: 1 / 1;
   margin: 0 auto;
   border-radius: 8px;
@@ -238,8 +238,8 @@ papertitle sup {
   }
 
   .profile-portrait {
-    width: min(70%, 260px);
-    max-width: 260px;
+    width: min(62%, 210px);
+    max-width: 210px;
   }
 
   .publications-table {

@@ -75,6 +75,10 @@
   text-align: center;
 }
 
+.news-paper-title {
+  color: #f49300;
+}
+
 .news-entry sup,
 papertitle sup {
   font-size: 0.68em;

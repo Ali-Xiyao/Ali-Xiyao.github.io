@@ -113,20 +113,20 @@ a.a1:hover { color:rgb(95, 23, 110);
 .contact-links .email-link .contact-sub {
   display: inline-block;
   max-width: 230px;
-  color: #9ca3af;
-  font-size: 12px;
+  color: #111;
+  font-size: inherit;
   font-weight: 400;
-  line-height: 1;
+  line-height: inherit;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  opacity: 0.82;
+  opacity: 1;
   letter-spacing: 0;
 }
 
 .contact-links .email-link:hover .contact-sub,
 .contact-links .email-link:focus .contact-sub {
-  color: #6b7280;
+  color: #111;
 }
 
 .contact-links svg {

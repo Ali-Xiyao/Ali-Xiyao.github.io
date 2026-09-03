@@ -88,6 +88,10 @@ papertitle sup {
   margin-bottom: 8px;
 }
 
+.first-author-key {
+  background: #fffedc;
+}
+
 .tag-filter {
   display: flex;
   flex-wrap: wrap;
@@ -144,6 +148,10 @@ papertitle sup {
   background: #fff;
 }
 
+.paper-row.leading-paper > td {
+  background: lightyellow;
+}
+
 .paper-row > td:first-child {
   border-left: 1px solid rgba(0, 0, 0, 0.14);
   border-radius: 8px 0 0 8px;
@@ -171,6 +179,12 @@ papertitle sup {
 .paper-copy-cell p {
   margin-bottom: 0;
   line-height: 1.5;
+}
+
+.author-marker {
+  font-size: 0.72em;
+  line-height: 0;
+  vertical-align: super;
 }
 
 .paper-visual {

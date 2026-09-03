@@ -69,6 +69,12 @@
   padding: 0;
 }
 
+.news-date-badge {
+  width: 62px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .news-entry sup,
 papertitle sup {
   font-size: 0.68em;

@@ -1,0 +1,21 @@
+custom.css
+  s_335b32da660fda::t_bf5917372b77d0 72-78
+index.html
+  s_335b32da660fda::t_bf5917372b77d0 70,97,102
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "6830bf89c8879b80869781e150fca67635638bbc",
+  "prompts": {},
+  "sessions": {
+    "s_335b32da660fda": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0666f-0fa3-7420-87f2-36859710f6b6",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Ali-Xiyao <aliwang0126@gmail.com>"
+    }
+  }
+}

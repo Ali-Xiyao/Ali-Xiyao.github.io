@@ -69,6 +69,13 @@
   padding: 0;
 }
 
+.news-entry sup,
+papertitle sup {
+  font-size: 0.68em;
+  line-height: 0;
+  vertical-align: super;
+}
+
 .publications-table {
   border-spacing: 0 16px;
 }

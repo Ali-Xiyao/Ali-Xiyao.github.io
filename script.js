@@ -18,4 +18,10 @@
     });
   }
 
+  document.querySelectorAll('.contact-placeholder').forEach(function (link) {
+    link.addEventListener('click', function (event) {
+      event.preventDefault();
+    });
+  });
+
 })();
